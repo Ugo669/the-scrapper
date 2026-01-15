@@ -1,4 +1,4 @@
-from bs4 import BeautifulSoup
+from bs4 import beautifulsoup
 import pandas as pd 
 import requests
 import csv
@@ -22,6 +22,7 @@ def convert_to_csv():
     choice = input("do you want it as a csv file? (y/n)")
     if choice == y:
         file_name = input("write you file name: ")
+        
 
 link_manager()
 request_hander()
